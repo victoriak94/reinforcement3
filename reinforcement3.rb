@@ -55,6 +55,3 @@ puts get_east_trains(transit_information)
 
 
 # 6. You probaby just ended up rewriting some of the same code. Move this repeated code into a method that accepts a direction and a list of trains as arguments, and returns a list of just the trains that go in that direction. Call this method once for north and once for east in order to DRY up your code.
-
-def get_trains(direction)
-  
